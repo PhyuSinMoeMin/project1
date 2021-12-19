@@ -1,0 +1,35 @@
+.background-image{
+    background-image: url("cake.jpg");
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.service{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.service .fas{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.service:hover{
+    background-color: rgb(24,182,255);
+    color: #ffffff;
+    border: 0px;
+}
+.footer{
+    margin-top: 40px;
+    background-color: #c0d5fe;
+    border: 40px;
+}
+.footer a{
+    text-decoration: none;
+}
+.card-title{
+    text-transform: capitalize;
+}
